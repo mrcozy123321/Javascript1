@@ -177,3 +177,23 @@ else if(value === 9) {console.log('Värdet är 9')}
 else if(value === 10) {console.log('Värdet är 10')}
 else if(value === 11) {console.log('Värdet är 11')}
 else {console.log('Värdet finns inte i if satsen.')}
+
+
+
+// Ternary operator
+
+let age = 18;
+
+// let drink = age >= 18 ? 'Beer' : 'Coke';
+
+let drink;
+if(age >= 18) {
+  drink = 'Beer'
+}
+else {
+  drink = 'Coke'
+}
+
+console.log(drink);
+
+{/* <div class={loggedIn? 'd-flex' : 'd-none'}></div> */}

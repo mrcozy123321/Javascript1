@@ -1,0 +1,13 @@
+#square {
+  border: 1px solid #333;
+  width: 200px;
+  height: 200px;
+}
+
+#firstName:focus {
+  outline: 3px solid red;
+}
+
+.focus-red {
+  outline: 3px solid red;  
+}
